@@ -29,6 +29,7 @@ Worked on implementing a new action/method in the AccountController to retrieve 
 1285 - It took several attempts to find the right process for pulling the User’s information through the Identity Model. Only a an hour or two per night after work so not much progress.
 #### Day 4
 1285 - Final solution was to make a new claim in the identityModel. The current active Users FirstName now displays for their accounts across all views. CHECK IN
+
 ![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/AdminLogin.PNG "Created Admin account")
 ![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/AdminLoginDone.PNG "Admin Logs in and admin name is pulled from database")
 ![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/customname.PNG "Current User name is pulled through Identity model from database")
