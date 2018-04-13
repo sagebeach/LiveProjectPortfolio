@@ -1,9 +1,9 @@
 # LiveProjectPortfolio
 I was brought onto a live project through my school for one of their clients. Included are code samples from a three week period working with a live team on this project part-time.
 
-##Changelog:
+## Changelog:
 
-###Week 1:
+### Week 1:
 ------------------------------------------------
 #### Day 1:
 1321 - Checked out project and familiarized myself with the codebase.
@@ -29,6 +29,9 @@ Worked on implementing a new action/method in the AccountController to retrieve 
 1285 - It took several attempts to find the right process for pulling the User’s information through the Identity Model. Only a an hour or two per night after work so not much progress.
 #### Day 4
 1285 - Final solution was to make a new claim in the identityModel. The current active Users FirstName now displays for their accounts across all views. CHECK IN
+![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/AdminLogin.PNG "Created Admin account")
+![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/AdminLoginDone.PNG "Admin Logs in and admin name is pulled from database")
+![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/customname.PNG "Current User name is pulled through Identity model from database")
 1349 - *Includes Migration* Changed (GUID)SellerID to (String)UserID and virtual Seller Seller, to ApplicationUser ApplicationUser. Updated reference changes CampaignsController.cs and migrated changes to database. CHECK IN
 
 ### Week 3:
@@ -37,6 +40,8 @@ Worked on implementing a new action/method in the AccountController to retrieve 
 #### Day 3:
 Troubleshooted issues with a database migration. Attempts to update the database threw login errors. Solved by recreating the database.
 A changeset from one of my teammates was throwing HTTP errors. I traced the error down to the specific changeset and found the changed code causing the exception. Fixed and now up and running.
+![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/FixedChangesetBug.PNG "Tracked down bug causing HTTP error 404.15")
+
 1254 - Created AdminController with CRUD functionality and modified/updated the AdminViewModel with the Campaign model. CHECK IN
 #### Day 5:
 Wrapped up my time on the project with a code retrospective and a report essay.
