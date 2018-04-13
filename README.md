@@ -31,8 +31,11 @@ Worked on implementing a new action/method in the AccountController to retrieve 
 1285 - Final solution was to make a new claim in the identityModel. The current active Users FirstName now displays for their accounts across all views. CHECK IN
 
 ![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/AdminLogin.PNG "Created Admin account")
+
 ![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/AdminLoginDone.PNG "Admin Logs in and admin name is pulled from database")
+
 ![alt text](https://github.com/sagebeach/LiveProjectPortfolio/blob/master/customname.PNG "Current User name is pulled through Identity model from database")
+
 1349 - *Includes Migration* Changed (GUID)SellerID to (String)UserID and virtual Seller Seller, to ApplicationUser ApplicationUser. Updated reference changes CampaignsController.cs and migrated changes to database. CHECK IN
 
 ### Week 3:
