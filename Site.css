@@ -1,0 +1,183 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+
+.container {
+    padding-right:0px;
+    padding-left:0px;
+}
+
+/*Register Form Formating*/
+
+.container .btn-left {
+    margin-left:15px;
+}
+
+.container .radio .radio-form {
+    margin-left:15px;
+}
+
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.dl-horizontal {
+    text-align:left;
+    font-weight:600;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 370px;
+
+}
+
+/* Sets the design for the sale price in the details and index page of campaign*/
+.specialprice {
+    font-weight:600;
+    color:#4172a8;
+    font-size:20px;
+    margin:0.50em 0;
+}
+
+/* Located in the details modal view of the campaign */
+.details-description {
+    font-weight:300;
+}
+
+/* Located in the details modal view of the campaign */
+.btn-warning {
+    margin:10px;
+}
+
+/* Campaign INDEX page */
+
+/*This syntax operates on any class starting with 'campaign-panel-'*/
+div[class|='campaign-panel'] {
+    text-align:center;
+    box-shadow:3px 5px 5px grey; 
+    border-radius:5px; 
+    border:1px solid #000; 
+    margin:10px;
+    margin-left:5px;
+    margin-right:5px; 
+    max-height: 350px;
+}
+
+div[class|='panel-body'] {
+    padding:8px;
+}
+
+    /*sort dropdown and search*/
+.filterArea {
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+.filterArea .dropdown-menu {
+    background-color: #4172a8;
+}
+
+.filterArea .dropdown-menu > li > a {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.filterArea .dropdown-menu > li > a:hover{
+    background-color: rgba(20, 92, 172, 0.4);
+}
+
+/*.filterArea .searchBar .btn-default {
+     background-color: #4172a8;
+     color: #FFF;
+     border-color: #4172a8;
+}*/
+
+.modal-title {
+    font-weight:600; 
+    font-size:large;
+}
+
+.navbar-left {
+    padding: 5px;
+    height: 100%;
+}
+
+.navbar-default {
+    background-color: #4172a8;
+    border-radius: 0;
+}
+
+
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-text {
+    color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #4172a8;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.register-btn {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+/* Campaign ABOUT page */
+
+.card-body {
+    padding-bottom: 1em
+}
+
+/*Reivew CREATE page*/
+.details{
+    align-content: center;
+    width: 380px;
+    overflow: auto;
+}
